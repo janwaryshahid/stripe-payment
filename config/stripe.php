@@ -1,6 +1,6 @@
 <?php
 return [
-'sk'=>'your_secrete_key',
-'pk'=>'your_publish_key'
+'sk'=>env('STRIPE_SECRET'),
+'pk'=>env('STRIPE_PUBLISH_KEY')
 ];
 ?>

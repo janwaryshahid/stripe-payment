@@ -23,7 +23,7 @@ class CartController extends Controller
                     'price_data'=>[
                         'currency'=>'USD',
                         'product_data'=>[
-                            'name'=>$request->product_price,
+                            'name'=>$request->product_name
                         ],
                         'unit_amount'=>$request->product_price*100
                     ],
